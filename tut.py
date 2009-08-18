@@ -182,4 +182,8 @@ dsolve(e, f(x))
 
 # Limits
 
-# $ vim sympy/series/tests/test_demidovich.py
+# sympy/series/tests/test_demidovich.py
+# e.g.:
+
+sqrt3 = lambda x: x**(S(1)/3)
+limit((sqrt3(x**2)-2*sqrt3(x)+1)/(x-1)**2, x, 1)
