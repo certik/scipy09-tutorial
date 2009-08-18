@@ -10,27 +10,15 @@ quad(f, e.args[1][0][1][0], e.args[1][0][1][1])
 # see the bug, show how to fix it.
 # ipdb:
 
-ipdb> mlib.mpf_eq?
-*** SyntaxError: invalid syntax (<stdin>, line 1)
+#ipdb> mlib.mpf_eq?
+#*** SyntaxError: invalid syntax (<stdin>, line 1)
 
 # -> better is ipython embed
 
 
 # FACTORING
 
-In [1]: e = (x+y+z)**2
-
-In [2]: e
-Out[2]: 
-           2
-(x + y + z) 
-
-In [3]: e.expand()
-Out[3]: 
-                         2    2    2
-2⋅x⋅y + 2⋅x⋅z + 2⋅y⋅z + x  + y  + z 
-
-In [4]: factor(e.expand())
-Out[4]: 
-           2
-(x + y + z) 
+e = (x+y+z)**2
+e
+e.expand()
+factor(e.expand())
