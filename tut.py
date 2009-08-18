@@ -8,6 +8,13 @@ f = lambdify(e.args[1][0][0], e.args[0])
 quad(f, e.args[1][0][1][0], e.args[1][0][1][1])
 
 # see the bug, show how to fix it.
+# ipdb:
+
+ipdb> mlib.mpf_eq?
+*** SyntaxError: invalid syntax (<stdin>, line 1)
+
+# -> better is ipython embed
+
 
 # FACTORING
 
