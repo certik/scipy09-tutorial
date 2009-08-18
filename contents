@@ -1,5 +1,10 @@
-Plan
-----
+SymPy tutorial
+==============
+
+Python library for symbolic manipulation.
+
+Contents
+--------
 
 * hands on overview of sympy capabilities
     - after this you should have a pretty good idea what sympy can and cannot
@@ -11,3 +16,5 @@ Plan
 * git
     - how to use git (with sympy and other projects)
     - why git is better than svn, bzr or hg (imho)
+
+* cython + sympy tutorial
