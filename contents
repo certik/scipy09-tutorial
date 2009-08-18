@@ -14,6 +14,9 @@ Contents
     - after this you should have a pretty good idea what sympy can and cannot
       do (yet)
 
+* google app engine (http://live.sympy.org/)
+* Sage (SPD, Femhub)
+
 * what to do when something goes wrong (always something goes wrong)
     - techniques to fix it (ipython embed/pdb, winpdb)
 
