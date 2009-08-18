@@ -1,0 +1,17 @@
+$ git co cython
+# see the file in:  sympy/ntheory/divisors.py
+$ bin/isympy
+In [1]: %time d = divisors(5*10**7)
+Compiled: False
+CPU times: user 5.70 s, sys: 0.01 s, total: 5.72 s
+Wall time: 5.73 s
+
+# let's compile it:
+python build.py build_ext --inplace
+
+$ bin/isympy
+In [1]: %time d = divisors(5*10**7)
+Compiled: True
+CPU times: user 0.29 s, sys: 0.00 s, total: 0.29 s
+Wall time: 0.29 s
+
