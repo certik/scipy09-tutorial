@@ -19,6 +19,5 @@ Contents
 
 * git
     - how to use git (with sympy and other projects)
-    - why git is better than svn, bzr or hg (imho)
 
 * cython + sympy tutorial
